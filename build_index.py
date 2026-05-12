@@ -521,6 +521,7 @@ def save_deliverables(pairs: list[dict], index):
     # 3. kb_metadata.pkl  (row-aligned with FAISS index)
     metadata = [
         {
+            "complex":  p["complex"],
             "domain":   p["domain"],
             "source":   p["source"],
             "fk_grade": p["fk_grade"],
