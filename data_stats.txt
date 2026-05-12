@@ -1,0 +1,15 @@
+=== PlainSpeak RAG Knowledge Base Stats ===
+Total rows: 4987
+
+Rows per source:
+  medeasi        : 1154
+  simple_wiki    : 1665
+  wiki_auto      : 2168
+
+Avg FK grade per domain:
+  general        : 9.23
+  medical        : 11.74
+
+FAISS index vectors: 4987
+Embedding dimension: 384
+Embedding model:     sentence-transformers/all-MiniLM-L6-v2
